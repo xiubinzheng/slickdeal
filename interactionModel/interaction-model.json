@@ -1,0 +1,54 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "slick deal",
+            "intents": [{
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AboutIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FrontpageDealIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me the frontpage deals",
+                        "give me the frontpage deals",
+                        "what are the frontpage deals",
+                        "get the latest frontpage deals"
+                    ]
+                },
+                {
+                    "name": "PopularDealIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me the popular deals",
+                        "give me the popular deals",
+                        "what are the popular deals",
+                        "get the latest popular deals"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
